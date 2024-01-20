@@ -54,12 +54,22 @@
         }
 
         // Print
+        public void Print()
+        {
+            Console.WriteLine($"Brand of phone is {Brand}");
+            Console.WriteLine($"Price of phone is {Price}");
+            Console.WriteLine($"Model of phone is {Model}");
+            Console.WriteLine($"RAM of phone is {RAM}");
+            Console.WriteLine($"Memory of phone is {Memory}");
+            Console.WriteLine($"Quantity of phone is {Quantity}");
+            Console.WriteLine("-----------------");
+            Console.WriteLine();
+        }
+
+        // Sell - გაყიდვა
 
 
-        // Sell - gayidva
-
-
-        // Buy - maragshi damateba
+        // Buy - მარაგში დამატება
 
 
     }
