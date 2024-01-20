@@ -5,28 +5,39 @@
         private string _brand;
         private string _price;
         private string _model;
-        private uint _RAM; // unsigned int - უნიშნო
+        private uint _RAM;
         private uint _memory;
         private uint _quantity;
 
-        public string GetBrand()
+        public string Brand
         {
-            return _brand;
+            get
+            {
+                return _brand;
+            }
         }
 
-        public string GetPrice()
+        public string Price
         {
-            return _price;
+            get
+            {
+                return _price;
+            }
+            set
+            {
+                _price = value;
+            }
         }
 
-        public void SetPrice(string value)
-        {
-            _price = value;
-        }
+        public string Model { get { return _model; } }
 
-        public uint GetQuantity()
+        public uint RAM { get { return _RAM; } }
+        public uint Memory { get { return _memory; } }
+
+        public uint Quantity
         {
-            return _quantity;
+            get { return _quantity; }
+            set { _quantity = value; }
         }
 
         public Phone(
@@ -41,5 +52,15 @@
             _memory = memory;
             _quantity = quantity;
         }
+
+        // Print
+
+
+        // Sell - gayidva
+
+
+        // Buy - maragshi damateba
+
+
     }
 }
