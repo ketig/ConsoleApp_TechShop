@@ -31,7 +31,7 @@
 
         public string Model { get { return _model; } }
 
-        public uint RAM { get { return _RAM; } }
+        public uint RAM { get { return _RAM; } set {_RAM = value;}}
         public uint Memory { get { return _memory; } }
 
         public uint Quantity
